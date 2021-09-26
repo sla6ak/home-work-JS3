@@ -42,7 +42,13 @@ body {
   margin-bottom: 10px;
   margin-top: -30px;
 }
-
+@media screen and (max-width: 768px) {
+  .sidebar h1 {
+    display: block;
+    font-size: 20px;
+    padding-left: 15px;
+  }
+}
 .main-slide {
   height: 100%;
   position: absolute;
