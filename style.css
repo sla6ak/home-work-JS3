@@ -39,15 +39,11 @@ body {
 
 .sidebar h1 {
   display: block;
-  font-size: 40px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
   margin-top: -30px;
 }
-@media screen and (max-width: 768px) {
-  .sidebar h1 {
-    font-size: 20px;
-  }
-}
+
 .main-slide {
   height: 100%;
   position: absolute;
